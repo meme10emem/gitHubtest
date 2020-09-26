@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+
+
+    <style>
+        .fa{
+            padding-top: 2%;
+            padding-right: 5%;
+            padding-bottom: 2.5%;
+            padding-left: 5%;;
+            text-decoration: none;
+            background-color: royalblue;
+            color: white;
+        }
+        .fa:hover{
+            opacity: 0.7;
+            color: white;
+            text-decoration: none;
+        }
+
+        .go{
+            padding-top: 2%;
+            padding-right: 3.5%;
+            padding-bottom: 2.5%;
+            padding-left: 3.5%;
+            text-decoration: none;
+            background: #dd4b39;
+            color: white;
+        }
+        .go:hover{
+            opacity: 0.7;
+            color: white;
+            text-decoration: none;
+        }
+
+        .twit:hover{
+            opacity: 0.7;
+            color: white;
+            text-decoration: none;
+        }
+        @media (min-width: 992px) {
+            .animate {
+                animation-duration: 0.3s;
+                -webkit-animation-duration: 0.3s;
+                animation-fill-mode: both;
+                -webkit-animation-fill-mode: both;
+            }
+
+            
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(1rem);
+                opacity: 0;
+             }
+            100% {
+                transform:translateY(0rem);
+                opacity: 1;
+            }
+            0% {
+                transform: translateY(1rem);
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes slideIn {
+            0% {
+                -webkit-transform: transform;
+                -webkit-opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateY(0);
+                -webkit-opacity: 1;
+            }
+            0% {
+                -webkit-transform: translateY(1rem);
+                -webkit-opacity: 0;
+            }
+            }
+
+        .slideIn {
+            -webkit-animation-name: slideIn;
+            animation-name: slideIn;
+        }
+
+    </style>
+  
+    <body style="font-family: calibri; font-size: 120%; background-image: linear-gradient(rgb(130, 213, 238),rgb(77, 77, 226))">
+
+        <div class="container p-3 mt-5">
+
+           <div class="row justify-content-md-center">
+                <div class="col-4 p-2 rounded" style="background-color: whitesmoke;">
+                    <img class="rounded-circle mx-auto d-block mt-4" style="max-width: 20%;" src="2x2 pic ko.jpg" alt="">
+                    <p class="text-center mt-2">John Emmanuel <b>Quinto</b></p>
+
+                    <div class="container">
+                        <p class="w-auto mx-auto text-center rounded-pill" style="font-size: smaller; background-color: lightgray; max-width: 45%;">Web Developer</p>
+                    </div>
+
+                    <div class="container text-center">
+                        <a href="#" class="fa rounded-circle" style="font-family: Helvetica; font-weight: bolder; font-size: smaller;">f</a> &nbsp
+                        <a href="#" class="go rounded-circle" style="font-family: Helvetica; font-weight: bolder; font-size: smaller;">G</a> &nbsp
+                        <a href="#" class="twit"><img src="twitter.png" alt="" class="rounded-circle" style="max-width: 10%;"></a>
+                    </div>
+
+                    <br>
+                
+                    <div class="container rounded" style="background-color: lightgray;">
+
+                        <div class="col ml-3 mb-3 p-2">
+
+                            <p class="text-justify mt-3" style="font-size: 75%;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-journal-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                                <path fill-rule="evenodd" d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                              </svg> &nbsp October 29,1995</p>
+                            <p class="text-justify" style="font-size: 75%;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                              </svg> &nbsp DRT Higway #403 Longos Pulilan Bulacan</p>
+                            <p class="text-justify" style="font-size: 75%;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                              </svg> &nbsp +639167544093</p>
+                            <p class="text-justify" style="font-size: 75%;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                              </svg> &nbsp meme102995@gmail.com</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-6 p-2 ml-4 rounded" style="background-color: whitesmoke;">
+                    <nav class="navbar navbar-expand-sm navbar-light rounded" style="background-color: whitesmoke;">
+                        <div class="container">
+                          <p style="font-weight: bolder; font-size: xx-large;">About me</p>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                              <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-menu-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M15 3.207v9a1 1 0 0 1-1 1h-3.586A2 2 0 0 0 9 13.793l-1 1-1-1a2 2 0 0 0-1.414-.586H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-13 11a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-3.586a1 1 0 0 0-.707.293l-1.353 1.354a.5.5 0 0 1-.708 0L6.293 14.5a1 1 0 0 0-.707-.293H2z"/>
+                                        <path fill-rule="evenodd" d="M15 5.207H1v1h14v-1zm0 4H1v1h14v-1zm-13-5.5a.5.5 0 0 0 .5.5h6a.5.5 0 1 0 0-1h-6a.5.5 0 0 0-.5.5zm0 4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0 4a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5z"/>
+                                      </svg>
+                              </a>
+                                <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Resume</a>
+                                  
+                                  <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Portfolio</a>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+
+                      <hr>
+
+                      <div class="container rounded" style="background-color: lightgray;">
+                
+                        <div class="container p-3">
+                            <p style="font-size: larger; font-weight: bold; font-family: helvetica;">What I'm doing</p>
+                        </div>
+
+                        <div class="card d-inline-block m-2" style="max-width: 46%;">
+                            <div class="card-body">
+                                <p class="text-justify"><img class="float-left mr-2" src="coding.png" alt="" style="height: 7%; width: 20%;">
+                                    <b>Web Development</b>
+                                <small>Can create a responsive web page by using HTML5 , CSS3 , Javascript , PHP.</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card d-inline-block m-2" style="max-width: 46%;">
+                            <div class="card-body">
+                                <p class="text-justify"><img class="float-left mr-2" src="framework.png" alt="" style="height: 7%; width: 20%;">
+                                    <b>Framework</b></br>
+                                <small>Can create website using Bootstrap 4 framework and Laravel 7.26.0.</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card d-inline-block m-2" style="max-width: 46%;">
+                            <div class="card-body">
+                                <p class="text-justify"><img class="float-left mr-2" src="design.png" alt="" style="height: 7%; width: 20%;">
+                                    <b>Web Designer</b></br>
+                                <small>Can create and design a beautiful website.</small>
+                                </p>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                   
+           </div>
+
+        </div>
+
+    </body>
+</html>

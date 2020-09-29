@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script>
+        function nextpage() {
+            //alert("alertttt");
+            window.location.href = "portfolio.html";
+        }
+    </script>
+
 </head>
 
 <style>
@@ -48,23 +55,23 @@
         }
 </style>
 
-<body style="background-image: linear-gradient(cyan,royalblue); background-attachment: fixed;">
+<body style="background-image: linear-gradient(rgba(211, 243, 67, 0.877),rgb(8, 8, 8)); background-attachment: fixed;">
 
         <div class="container">
 
-            <div class="container-md" style="margin-top: 8%; margin-bottom: 8%;">
+            <div class="container-md" style="margin-top: 4%; margin-bottom: 4%;">
 
                 <div class="row" style="margin-top: 2%; margin-bottom: 2%;">
                     <div class="col-md-4">
                         <div class="col-md-12 text-center img-rounded" style="color: darkslategrey; background-color: whitesmoke;">
-                            <img class="img-thumbnail" style="border-radius: 50%; margin-top: 3%; max-width: 20%;" src="2x2 pic ko.jpg" alt="">
+                            <img class="img-thumbnail" style="border-radius: 50%; margin-top: 5%; max-width: 25%;" src="2x2 pic ko.jpg" alt="">
                             <p class="text-center" style="margin-top: 2%;">John Emmanuel <b>Quinto</b></p>
             
                             <div class="container-md">
-                                <p class="img-rounded" style="margin: auto; max-width: 40%; color: darkslategrey; background-color: lightgray;">Web Developer</p>
+                                <p class="img-rounded" style="padding: 3%; margin: auto; max-width: 40%; color: darkslategrey; background-color: rgba(233, 232, 232, 0.548);">Web Developer</p>
                             </div>
 
-                            <br>
+                            <br><br>
             
                             <div class="container-md">
                                 <a href="#" class="twit"><img src="image/Gmail.png" alt="" class="img-rounded" style="max-width: 10%;"></a>&nbsp&nbsp
@@ -72,9 +79,9 @@
                                 <a href="#" class="twit"><img src="twitter.png" alt="" class="img-rounded" style="max-width: 10%;"></a>
                             </div>
             
-                            <br>
+                            <br><br>
                         
-                            <div class="container-md img-rounded" style="padding: 5%; background-color: lightgray;">
+                            <div class="container-md img-rounded" style="padding: 5.6%; background-color: rgba(233, 232, 232, 0.548);">
             
                                     <p class="text-justify" style="font-size: 75%;"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-journal-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
@@ -95,7 +102,7 @@
                             <br>
                             <br>
 
-                            <button class="btn btn-primary" type="submit">Email me</button>
+                            <button class="btn btn-primary" type="button">Email me</button>
 
                             <br>
                             <br>
@@ -106,19 +113,22 @@
 
                         <div class="col-md-8">
                             <div class="col-md-12 img-rounded" style=" color: darkslategrey; background-color: whitesmoke;">
-                                
-                                <h2>About me</h2>
+
+                                <h2 style="margin-left: 3%;">About me</h2>
+
                                 <hr style="border-color: dimgray;">
 
-                                <div class="container-fluid img-rounded" style="padding: 1%; background-color: lightgray;">
+                                <div class="container-fluid img-rounded" style="padding: 1.7%; background-color: rgba(233, 232, 232, 0.548);">
 
-                                    <h2>What I'm doing</h2>
+                                    <ul class="list-inline">
+                                        <li><h2>What Im doing</h2></li>
+                                    </ul>
 
                                     <div class="container-md">
-                                        <div class="row">
+                                        <div class="row" style="margin-bottom: 4%;">
                                             <div class="col-md-5">
-                                                <div class="col-md-12 col-md-offset-2 img-rounded" style="padding: 8%; background-color: whitesmoke;">
-                                                    <p class="text-justify"><img class="" src="coding.png" alt="" style="max-width: 15%;">
+                                                <div class="col-md-12 col-md-offset-2 img-rounded" style="margin-bottom: 4%;padding: 8%; background-color: whitesmoke;">
+                                                    <p class="text-justify"><img class="" src="image/coding.png" alt="" style="max-width: 15%;">
                                                         &nbsp&nbsp&nbsp<strong>Web Development</strong>&nbsp <br>
                                                     <small>Can create a responsive web page by using HTML5 , CSS3 , Javascript , PHP.</small>
                                                     </p>
@@ -127,7 +137,7 @@
 
                                             <div class="col-md-5">
                                                 <div class="col-md-12 col-md-offset-3 img-rounded" style="padding: 8%; background-color: whitesmoke;">
-                                                    <p class="text-justify"><img class="float-left mr-2" src="framework.png" alt="" style="max-width: 15%;">
+                                                    <p class="text-justify"><img class="float-left mr-2" src="image/framework.png" alt="" style="max-width: 15%;">
                                                         &nbsp&nbsp&nbsp<b>Framework</b></br>
                                                     <small>Can create website using Bootstrap 4 framework and Laravel 7.26.0.</small>
                                                     </p>
@@ -135,28 +145,30 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <br>
+                                    
                                     <div class="container-md">
-                                        <div class="row">
+                                        <div class="row" style="margin-bottom: 4%;">
                                             <div class="col-md-5">
-                                                <div class="col-md-12 col-md-offset-2 img-rounded" style="padding: 8%; background-color: whitesmoke;">
-                                                    <p class="text-justify"><img class="" src="coding.png" alt="" style="max-width: 15%;">
-                                                        &nbsp&nbsp&nbsp<strong>Web Development</strong>&nbsp <br>
-                                                    <small>Can create a responsive web page by using HTML5 , CSS3 , Javascript , PHP.</small>
+                                                <div class="col-md-12 col-md-offset-2 img-rounded" style="margin-bottom: 4%; padding: 8%; background-color: whitesmoke;">
+                                                    <p class="text-justify"><img class="" src="image/mobile.png" alt="" style="max-width: 15%;">
+                                                        &nbsp&nbsp&nbsp<strong>Resposive designs</strong>&nbsp <br>
+                                                        <small>Can create mobile resposive websites.</small>
                                                     </p>
                                                 </div>
                                             </div>
 
                                             <div class="col-md-5">
                                                 <div class="col-md-12 col-md-offset-3 img-rounded" style="padding: 8%; background-color: whitesmoke;">
-                                                    <p class="text-justify"><img class="float-left mr-2" src="framework.png" alt="" style="max-width: 15%;">
-                                                        &nbsp&nbsp&nbsp<b>Framework</b></br>
-                                                    <small>Can create website using Bootstrap 4 framework and Laravel 7.26.0.</small>
+                                                    <p class="text-justify"><img class="float-left mr-2" src="image/edit.png" alt="" style="max-width: 15%;">
+                                                        &nbsp&nbsp&nbsp<b>Editting</b></br>
+                                                        <small>Able to use Adobe (Photoshop,Audition)</small>
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                    <div class="container-md text-center"><button class="btn btn-primary" type="button" onclick="nextpage()">See my Portfolio</button></div>
 
                                 </div>
                                 <br>
@@ -170,8 +182,6 @@
                 </div>
                 
             </div>
-
-        </div>
         
 </body>
 </html>
